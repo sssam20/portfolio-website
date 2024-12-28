@@ -15,7 +15,7 @@ This is a personal portfolio website built using **React.js**, showcasing my ski
 ## 🛠️ Technologies Used  
 - **React.js** for dynamic and interactive UI.  
 - **HTML** and **CSS** for structure and styling.  
-- **JavaScript** for functionality.  
+- **JavaScript** for better functionality.  
 
 ## How to Use  
 1. Open the link: [https://sssam20.github.io/portfolio-website/](https://sssam20.github.io/portfolio-website/).  
