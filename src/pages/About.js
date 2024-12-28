@@ -7,7 +7,7 @@ const About = () => {
     const [showMoreNIT, setShowMoreNIT] = useState(false);
     return (
         <div>
-            <main>
+            <main className='page'>
                 <section className="firstn">
                     <img src="../images/about_4x.jpg" alt='profile'></img>
                 </section>
@@ -37,7 +37,7 @@ const About = () => {
                     <h1>Experience</h1>
             <br />
             <section className="experience">
-                <div className="card" style={{ width: '18rem' }}>
+                <div className="card" >
                     <div className="card-body">
                         <h5 className="card-title">Graduate Engineer Trainee - Computer Vision, Mantra Softech India Pvt Ltd</h5>
                         <p className="card-text">
@@ -67,7 +67,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="card" style={{ width: '18rem' }}>
+                <div className="card" >
                     <div className="card-body">
                         <h5 className="card-title">Research Intern - National Institute of Technology Raipur</h5>
                         <p className="card-text">
@@ -94,23 +94,23 @@ const About = () => {
                     <h1>Education</h1>
                     <br />
                     <section className="education">
-                        <div className="card" style={{ width: '16rem' }}>
-                            <img src="images/national_institute_of_technology_raipur.jpg" className="card-img-top" alt="NIT Raipur" />
+                        <div className="card" >
+                            <img src="../images/national_institute_of_technology_raipur.jpg" className="card-img-top" alt="NIT Raipur" />
                             <div className="card-body">
                                 <h5 className="card-title">National Institute of Technology Raipur</h5>
                                 <p className="card-text">Completed B.Tech at NIT RAIPUR from 2020 to 2024</p>
                             </div>
                         </div>
 
-                        <div className="card" style={{ width: '16rem' }}>
-                            <img src="images/OIP (1).jpg" className="card-img-top" alt="Hadas Junior College Nagpur" />
+                        <div className="card" >
+                            <img src="../images/OIP (1).jpg" className="card-img-top" alt="Hadas Junior College Nagpur" />
                             <div className="card-body">
                                 <h5 className="card-title">Hadas Junior College Nagpur</h5>
                                 <p className="card-text">Completed 12th with 84.3%</p>
                             </div>
                         </div>
-                        <div className="card" style={{ width: '16rem' }}>
-                            <img src="images/OIP (1).jpg" className="card-img-top" alt="Angel Kids Convent" />
+                        <div className="card" >
+                            <img src="../images/OIP (1).jpg" className="card-img-top" alt="Angel Kids Convent" />
                             <div className="card-body">
                                 <h5 className="card-title">Angel Kids Convent</h5>
                                 <p className="card-text">Completed 10th with 92.4%</p>

@@ -2,8 +2,9 @@
 
 .projects {
     padding: 50px 100px;
-    background-color: #f9f9f9;
+     background-color: #ffffff;
     text-align: center;
+    height: 100vh;
 }
 
 .projects h1 {
@@ -53,3 +54,16 @@
     color: #555;
     line-height: 1.5;
 }
+ /* Media Query for Smaller Screens */
+ @media screen and (max-width: 768px) {
+   
+.projects {
+
+/* width: 80%; */
+padding: 2% 2%;
+height: 100%;
+}
+.project-card{
+    width: 100%;
+}
+ }
